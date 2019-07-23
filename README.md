@@ -1,5 +1,7 @@
-# GDAL integrated with FileGDB
+# GDAL extensions
+The purpose of this project is trying to build up the portable GDAL and its supportive tools
 
+Currently, add FileGDB integration.
 This docker image will setup FileGDB and its dependencies first, then install GDAL from source code.
 
 ## Prerequisite
@@ -16,6 +18,12 @@ The software environment is as following
 * GDAL 3.0.1
 
 ## Build docker image
+
+* Go under this directory
+```
+
+$ docker build -t <IMAGE_NAME> .
+```
 
 ## Run
 
